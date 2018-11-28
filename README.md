@@ -27,8 +27,8 @@ Two 1-D numpy arrays for x and y coordinates.
 
 ### `live_plot` Method
 
-Opens a window and continuously updates the readings in the plot. This is a blocking funciton.
+Opens a window and continuously plots the readings. This is a blocking function.
 
 #### Args
 
-- `interpolate`: If the missed readings should be interpolated. Similar to `Hokuyo.xy(filter=False, interpolate)
+- `interpolate`: If the missed readings should be interpolated. Similar to `Hokuyo.xy(filter=False, interpolate)`
